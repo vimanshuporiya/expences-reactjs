@@ -1,0 +1,38 @@
+/* .ExpenseForm-head{
+    background-color: blueviolet;
+  
+    align-items: center;
+    border-radius: 12% ;
+    box-shadow: 0 1px 8px ;
+    padding: 7%;
+    flex-direction: column;
+    display: flex;
+}
+.ExpenseForm-title{
+    padding: 1%;
+    border: 10%;
+    border-color: black;
+} */
+
+.new-expense_controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+
+}
+
+.new-expense_control input{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border:1px solid #ccc;
+    width: 20rem;
+    max-width:100%;
+
+
+}
+.new-expense_actions{
+    text-align: right;
+}
